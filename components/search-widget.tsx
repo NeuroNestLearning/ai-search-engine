@@ -26,8 +26,8 @@ const SearchWidget = () => {
                 Search
             </button>
             <gen-search-widget
-                configId="1ad86897-ccec-4706-808a-a3a472533820"
-                triggerId="searchWidgetTrigger">
+                configId="xxxxxxx"
+                triggerId="xxxxx">
             </gen-search-widget>
         </div>
     );
