@@ -5,7 +5,7 @@ const auth = new GoogleAuth({
     scopes: 'https://www.googleapis.com/auth/cloud-platform'
 });
 
-const PROJECT_ENGINE = '${}' //
+const PROJECT_ENGINE = '${your-project-engine-url}' //
 const DISCOVERY_ENGINE_URL = `https://discoveryengine.googleapis.com/v1alpha/${PROJECT_ENGINE}`;
 
 export async function POST(req) {
